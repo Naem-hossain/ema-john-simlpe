@@ -1,0 +1,13 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-component{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin: 20px;
+}
+.order-component{
+    background-color: rgba(255,153,0,0.3);
+}
